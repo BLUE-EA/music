@@ -1,0 +1,157 @@
+.header {
+    height: 60px;
+    background-color: black;
+}
+
+.top {
+    width: 1348px;
+    height: 60px;
+    margin: 0px auto;
+    /*background-color: gray;*/
+}
+
+.top .logo {
+    width: 210px;
+    height: 60px;
+}
+
+.top .logo .word {
+    margin: 16px 71px 20px 52px;
+    font-size: 24px;
+    font-family: 华文仿宋;
+    color: #807c79;
+    font-weight: 900;
+}
+
+.top .option {
+    width: 574px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.top .option .ulList li {
+    height: 60px;
+    width: 82px;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+}
+
+.top .option .ulList li a {
+    display: block;
+    color: white;
+}
+
+.top .option .ulList .active {
+    height: 60px;
+    width: 82px;
+    background-color: red;
+}
+
+.top .search {
+    width: 282px;
+    height: 60px;
+}
+
+.top .search .searchBox {
+    /*width: 240px;*/
+    height: 30px;
+}
+
+.top .search .searchBox .searchCase {
+    width: 198px;
+    height: 30px;
+    text-indent: 13px;
+    margin-left: 26px;
+    margin-top: 14px;
+    background-color: #dcdcdc;
+    border-right: 2px solid #cccccc;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #aaaabb;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.top .search .searchBox .searchBtn {
+    height: 30px;
+    width: 40px;
+    background-color: #dcdcdc;
+    color: #333333;
+    margin-left: -5px;
+    margin-top: 14px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.top .search .searchBox .searchLogo {
+    margin-top: 22px;
+    margin-left: -26px;
+    color: #333333;
+}
+
+.top .unactivated {
+    display: none;
+}
+
+.top .unLogin {
+    width: 174px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.top .unLogin a {
+    color: white;
+    margin: 0 15px;
+}
+
+.top .unLogin div {
+    color: white;
+}
+
+.top .userInfo {
+    width: 174px;
+    height: 60px;
+}
+
+.top .userInfo .imgHead {
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: white;
+    margin-top: 4px;
+}
+
+.top .userInfo .imgHead span {
+    float: left;
+    width: 52px;
+    height: 52px;
+    position: relative;
+    background-image: url("../img/imgHead.jpg");
+    background-repeat: no-repeat;
+    background-size: 52px 52px;
+    border-radius: 26px;
+}
+
+.top .userInfo .more {
+    margin-top: 24px;
+    margin-left: 6px;
+    color: white;
+    font-size: 14px;
+}
+
+.top .userInfo .nickname {
+    margin-left: 32px;
+    padding-top: 21px;
+    color: white;
+    font-size: 14px;
+}
+.header .userInfo .nickname span{
+    color: white;
+}
